@@ -6,7 +6,7 @@ import codecs
 from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 __author__ = 'Bernard Yue'
 
 _classifiers = '''
@@ -90,7 +90,7 @@ setup(name='html5print',
       long_description=docstring,
       author=__author__,
       author_email='html5print@gmail.com',
-      url='https://github.com/berniey/html5print',
+      url='https://github.com/arlm/html5print',
       keywords='HTML HTML5 CSS CSS3 Beautify Pretty Print',
       install_requires=requires,
       packages=packages,
